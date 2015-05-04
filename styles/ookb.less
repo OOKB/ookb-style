@@ -294,6 +294,13 @@ main {
     .image {
       width: 25%;
       height: ~'calc(((100vw - 4rem) / 4) * .66)';
+    
+      &:nth-child(4),
+      &:nth-child(5),
+      &:nth-child(6), {
+        width: 33%;
+        height: ~'calc(((100vw - 4rem) / 3) * .66)';
+      }
     }
   }
 }
